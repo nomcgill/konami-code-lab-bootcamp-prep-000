@@ -15,4 +15,10 @@ function init() {
   
 }
 
-const alphabet 
+const alphabet = ['a','b','c'];
+let index = 0
+oneKeyDownHandler(e){
+  const key = e.key;
+  if(key === alphabet[index]){index++;
+  if (index===alphabet.length){alert("Hurray!)
+}
